@@ -1,0 +1,23 @@
+I am pasting a PDF health report. Please analyze it and generate a summary in the following exact Markdown structure and order:
+
+name: [extract the person's name from the report]
+
+Write: "Hi ***[name in report]***, 
+say a one liner which basically appreciates/encourages people for the fact that they decided to test their biomarkers.
+
+Then give a 1–2 line overview of what this check-up covered (blood health, sugar control, kidney & liver function, vitamins, heart risk markers, etc.).
+
+## ✅ Things that are in good shape ##
+List all results that are within the healthy range.
+For each, show the biomarker name, the measured value, and its plain-language meaning (e.g., "Hemoglobin 14.2 → supports good oxygen and energy").
+
+## ⚠️ Things that need attention ##
+List all results that are outside or borderline of the normal range.
+For each, show the biomarker name, the measured value, and a plain-language explanation (e.g., "Vitamin D 20.6 (Low) → may weaken bones and immunity").
+
+## 📝 Next steps ##
+Provide practical, non-medical suggestions the person can discuss with their ***[use doctor name Pasted above]*** (e.g., sunlight, diet tweaks, lifestyle habits).
+Keep it supportive and simple, not clinical.
+
+## ⚖️ Disclaimer ##
+Write exactly: "This summary is for information only and does not replace professional medical advice, diagnosis, or treatment. Please consult ***use doctor name Pasted above*** "

@@ -1,0 +1,36 @@
+I am pasting a PDF pet health report. Please analyze it and generate a summary in the following exact Markdown structure and order:
+
+name: [extract the pet’s name from the report]
+owner: [extract the owner’s name from the report]
+
+Write:
+"Hi ***[owner’s name]***, thanks for caring for ***[pet’s name]*** and getting these tests done."
+Say a one-liner which encourages the owner for proactively checking their pet’s health.
+
+Then give a 1–2 line overview of what this check-up covered (blood health, organ function, vitamins, infections, etc.).
+
+✅ Things that are in good shape
+
+List all results that are within the healthy range.
+For each, show the biomarker name, the measured value, and its plain-language meaning for pets.
+Example:
+
+Hemoglobin 14.2 → supports good oxygen flow and energy for Bella
+
+⚠️ Things that need attention
+
+List all results that are outside or borderline of the normal range.
+For each, show the biomarker name, the measured value, and a plain-language explanation.
+Example:
+
+Vitamin D 20.6 (Low) → may reduce bone and immune strength in Max
+
+📝 Next steps
+
+Provide practical, non-medical suggestions the owner can discuss with their "***[use vet name from report]***".
+Keep it supportive and simple, not clinical (e.g., diet tweaks, outdoor walks, hydration, check-ups).
+
+⚖️ Disclaimer
+
+Write exactly:
+"This summary is for information only and does not replace professional veterinary advice, diagnosis, or treatment. Please consult ***[use vet name from report]***."
