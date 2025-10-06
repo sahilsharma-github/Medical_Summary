@@ -23,7 +23,7 @@ def encode_image_to_data_uri(path: str) -> str:
     return f"data:{mime};base64,{base64.b64encode(data).decode()}"
 
 # usage
-logo_url = encode_image_to_data_uri("C:/code/Projects/Medical Summary/assets/logo.png")
+logo_url = encode_image_to_data_uri("C:/code/Projects/Medical_Summary/assets/logo.png")
 
 # remove emoji variation selector (often breaks width calc)
 VS16 = "\uFE0F"
